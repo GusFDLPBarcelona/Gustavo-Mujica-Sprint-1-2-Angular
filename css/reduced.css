@@ -1,21 +1,22 @@
 @charset "UTF-8";
-body {
+html, body {
   overflow-x: hidden;
 }
 
 .blue-form-right {
   position: absolute;
   z-index: -1;
-  width: 400%;
+  width: 90%;
   height: 75%;
   top: 30%;
   left: 30%;
+  border-end-start-radius: 50em;
 }
 
 .blue-form-left {
   position: absolute;
   z-index: -1;
-  width: 400%;
+  width: 90%;
   height: 95%;
   top: 25%;
   right: 25%;
