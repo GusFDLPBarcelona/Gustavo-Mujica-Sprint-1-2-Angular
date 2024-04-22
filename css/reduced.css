@@ -18,8 +18,16 @@ html, body {
   z-index: -1;
   width: 90%;
   height: 95%;
-  top: 25%;
+  top: 20%;
   right: 25%;
+  border-bottom-right-radius: 50em;
+}
+
+.rounded-left-none {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: 100px; 
+	border-bottom-right-radius: 100px; 
 }
 
 .card .img-size {

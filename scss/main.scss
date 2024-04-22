@@ -40,10 +40,11 @@ html, body{
 .blue-form-left {
 	position: absolute;
 	z-index: -1;
-	width: 400%;
-	height: 95%;
+	width: 50;
+	height: 70%;
 	top: 25%;
 	right: 25%;
+	border-bottom-right-radius: 50;
 }
 
 .card .img-size {
@@ -64,6 +65,19 @@ html, body{
 			margin-top: 8rem;
 		}
 	}
+}
+
+@media (max-width: 768px) {
+    .blue-form-left {
+        height: 60%;  
+        top: 20%;  
+    }
+}
+
+@media (min-width: 272px) {
+    .hamburger-menu {
+        display: none;
+    }
 }
 
 .p-footer {
