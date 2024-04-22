@@ -1,1 +1,2 @@
 Este es un ejercicio para profundizar en el aprendizaje de Bootstrap, contenedores flex y SASS.
+Para utilizarlo clonar el repositorio para hacerlo local en esta dirección: https://github.com/GusFDLPBarcelona/Gustavo-Mujica-Sprint-1-2-Angular.git y hacer click en el archivo index.html.
