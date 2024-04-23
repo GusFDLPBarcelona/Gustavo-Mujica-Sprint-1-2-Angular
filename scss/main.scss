@@ -26,6 +26,11 @@ html, body{
 	overflow-x: hidden;
 }
 
+@media (min-width: 272px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+}
 .blue-form-right {
 	position: absolute;
 	z-index: -1;
@@ -38,13 +43,13 @@ html, body{
 
 
 .blue-form-left {
-	position: absolute;
-	z-index: -1;
-	width: 50;
-	height: 70%;
-	top: 25%;
-	right: 25%;
-	border-bottom-right-radius: 50;
+    position: absolute;
+    z-index: -1;
+    width: 100%; 
+    height: 75%;
+    top: 25%;
+    left: 0;  
+    border-bottom-right-radius: 50em;
 }
 
 .card .img-size {
@@ -74,11 +79,7 @@ html, body{
     }
 }
 
-@media (min-width: 272px) {
-    .hamburger-menu {
-        display: none;
-    }
-}
+
 
 .p-footer {
 	letter-spacing: 0.3rem;
